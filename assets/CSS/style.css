@@ -1,0 +1,145 @@
+/* Global */
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@400;600&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  width: 100%;
+  height: 100%;
+  font-family: "Open Sans", sans-serif;
+  position: relative;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+}
+
+/* Header */
+header {
+  background-color: hsl(257, 40%, 49%);
+  width: 100%;
+  height: 100vh;
+  position: relative;
+}
+
+header .main-head {
+  background-image: url("../../images/bg-desktop.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+  padding: 20px 60px;
+}
+
+header .main-head .logo {
+  width: 180px;
+  height: 60px;
+}
+
+header .main-head .Info-header {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 40px;
+}
+
+header .main-head .Info-header .preview,
+header .main-head .Info-header .text-info {
+  flex: 1;
+}
+
+header .main-head .Info-header .text-info {
+  padding-top: 40px;
+}
+
+header .main-head .Info-header .text-info h1,
+header .main-head .Info-header .text-info p,
+header .main-head .Info-header .text-info .btn {
+  width: 80%;
+  margin: auto;
+}
+
+header .main-head .Info-header .text-info h1 {
+  font-size: 2.4em;
+  font-weight: 600;
+  color: #fff;
+  font-family: 'Poppins', sans-serif;
+  line-height: 1.5;
+}
+
+header .main-head .Info-header .text-info p {
+  font-size: 16px;
+  margin: 20px auto;
+  color: #eee;
+  line-height: 1.7;
+}
+
+header .main-head .Info-header .text-info .btn button {
+  font-family: "Poppins", sans-serif;
+  width: 40%;
+  height: 48px;
+  border: none;
+  border-radius: 40px;
+  background-color: #fff;
+  color: hsl(257, 40%, 49%);
+  font-size: 16px;
+  letter-spacing: 1px;
+  cursor: pointer;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  transition: .3s;
+}
+
+header .main-head .Info-header .text-info .btn button:hover {
+  color: #fff;
+  background-color: hsl(300, 69%, 71%);
+}
+
+/* Social */
+header .main-head .social {
+  list-style: none;
+  display: flex;
+  justify-content: end;
+  margin-bottom: 50px;
+}
+
+header .main-head .social li {
+  width: 35px;
+  height: 35px;
+  font-size: 18px;
+  border: 1px solid #fff;
+  margin: 0 5px;
+  color: #fff;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  transition: .3;
+}
+
+header .main-head .social li:hover {
+  color: hsl(300, 69%, 71%);
+  border-color: hsl(300, 69%, 71%);
+}
+
+/* Footer */
+footer {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
+footer .attribution {
+  font-size: 11px;
+  text-align: center;
+  color: #FFF
+}
+footer .attribution a {
+  text-decoration: none;
+  color: #f097ff
+}

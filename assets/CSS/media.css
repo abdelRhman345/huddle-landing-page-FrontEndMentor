@@ -1,0 +1,158 @@
+@media (max-width: 575.98px) {
+  header {
+    width: 100%;
+    height: 100%;
+  }
+  header .main-head {
+    background-image: url("../../images/bg-mobile.svg");
+    padding: 20px;
+    width: 100%;
+    height: 100%;
+  }
+  header .main-head .logo {
+    width: 120px;
+  }
+  header .main-head .Info-header {
+    flex-direction: column;
+  }
+  header .main-head .Info-header .preview {
+    width: 65%;
+    margin: auto;
+  }
+  header .main-head .Info-header .text-info {
+    text-align: center;
+  }
+  header .main-head .Info-header .text-info h1 {
+    font-size: 1.7em;
+    line-height: 1.6;
+  }
+  header .main-head .Info-header .text-info p {
+    font-size: 15px;
+  }
+  header .main-head .Info-header .text-info .btn button {
+    width: 60%;
+    height: 45px;
+    font-size: 14px;
+  }
+  header .main-head .social {
+    margin-top: 60px;
+    justify-content: center;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+  header {
+    width: 100%;
+    height: 100%;
+  }
+  header .main-head {
+    background-image: url("../../images/bg-mobile.svg");
+    padding: 20px;
+    width: 100%;
+    height: 100%;
+  }
+  header .main-head .logo {
+    width: 140px;
+  }
+  header .main-head .Info-header {
+    flex-direction: column;
+  }
+  header .main-head .Info-header .preview {
+    width: 65%;
+    margin: auto;
+  }
+  header .main-head .Info-header .text-info {
+    text-align: center;
+  }
+  header .main-head .Info-header .text-info h1 {
+    font-size: 2em;
+    line-height: 1.6;
+  }
+  header .main-head .Info-header .text-info p {
+    font-size: 15px;
+  }
+  header .main-head .Info-header .text-info .btn button {
+    width: 60%;
+    height: 45px;
+    font-size: 14px;
+    margin-top: 15px;
+  }
+  header .main-head .social {
+    margin-top: 60px;
+    justify-content: center;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+  header {
+    width: 100%;
+    height: 100%;
+  }
+  header .main-head {
+    background-image: url("../../images/bg-mobile.svg");
+    padding: 20px;
+    width: 100%;
+    height: 100%;
+  }
+  header .main-head .logo {
+    width: 160px;
+  }
+  header .main-head .Info-header {
+    flex-direction: column;
+  }
+  header .main-head .Info-header .preview {
+    width: 65%;
+    margin: auto;
+  }
+  header .main-head .Info-header .text-info {
+    text-align: center;
+  }
+  header .main-head .Info-header .text-info h1 {
+    font-size: 2.1em;
+    line-height: 1.5;
+  }
+  header .main-head .Info-header .text-info p {
+    font-size: 15px;
+  }
+  header .main-head .Info-header .text-info .btn button {
+    width: 60%;
+    height: 45px;
+    font-size: 14px;
+  }
+  header .main-head .social {
+    margin-top: 60px;
+    justify-content: center;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  header {
+    width: 100%;
+    height: 100vh;
+  }
+  header .main-head {
+    padding: 40px;
+  }
+  header .main-head .Info-header .preview {
+    width: 65%;
+    margin: auto;
+  }
+  header .main-head .Info-header .text-info {
+    padding-top: 10px;
+}
+  header .main-head .Info-header .text-info h1 {
+    font-size: 2em;
+    line-height: 1.6;
+  }
+  header .main-head .Info-header .text-info p {
+    font-size: 15px;
+  }
+  header .main-head .Info-header .text-info .btn button {
+    width: 50%;
+    height: 45px;
+    font-size: 14px;
+  }
+  header .main-head .social {
+    margin-top: 60px;
+  }
+}
